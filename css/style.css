@@ -1,0 +1,191 @@
+/* 
+rojo: #e7356f
+azul: #0051a0
+azul oscuro: #012140
+amarillo: #f8ae00
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,700&family=Oxygen:wght@400;700&family=Rufina:wght@400;700&display=swap');
+ /*     font-family: 'Amaranth', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Rufina', serif; */
+
+/* Reseteo estilo predeterminado CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* HEADER */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2C4058;
+    position: sticky;
+    padding: 0 30px;
+    top: 0;
+}
+.header img{
+    margin: 10px;
+}
+.header ul{
+    display:flex;
+}
+.header li{
+    margin: 10px;
+}
+.header a{
+    color: #f7f7ff;
+    font-family: 'Amaranth', sans-serif;
+}
+.header a:hover{
+    color: #f8ae00;
+    font-weight: bold;
+}
+
+/* MAIN */
+main{
+    background-color: #f7f7ff;
+    min-height: 80vh;
+}
+.text1{
+    font-family: 'Amaranth', sans-serif;
+    font-size: 60px;
+    font-weight: 700px;
+    line-height: 1.1;
+}
+.text2{
+    font-family: 'Rufina', serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 50px 30px 20px;
+    text-align: center;
+}
+.text3{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.main-index img{
+    width: 350px;
+    padding: 30px;
+}
+
+/* BANNER */
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    padding: 30px 60% 60px 30px;
+    text-align: left;
+    height: 500px;
+    color: white;
+    background-color: #01214052;
+}
+.banner-index{
+    background-image: url(../img/index/indexBanner.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+}
+.banner-donar{
+    background-image: url(../img/donar/encabezadoDonar.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+button{
+    font-size:14px;
+    font-family:'Oxygen', sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#e7356f;
+    border: 0px;
+    border-radius: 5px;
+    width:80px;
+    height:30px;
+   }
+button:hover{
+    background:#f8ae00;
+    font-weight:bolder;
+}
+
+/* GALERÍA DE APOYOS */
+.grid-container{
+    max-width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-content: center;
+    justify-items: center;
+    grid-row-gap: 15px;
+}
+.grid-container img{
+    border-radius: 10%;
+}
+.grid-container p{
+    text-align: center;
+    color: #2C4058;
+}
+
+/* FOOTER */
+.footer{
+    display: flex;
+    justify-content: center;
+    background-color: #2C4058;
+    font-family: 'Rufina', serif;
+    color: #f7f7ff;
+    text-align: left;
+    align-items: center;
+    font-size: 13px;
+    padding: 10px;
+}
+.footer img{
+    margin: 20px 15px;
+}
+.footer img:hover{
+    filter:alpha(opacity=70);
+	-moz-opacity: 0.7;
+	opacity: 0.7;
+	-khtml-opacity: 0.7;
+}
+
+/* MEDIA QUERY */
+@media (max-width:1455px){
+    .grid-container{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
+@media (max-width:700px){
+    .header, .footer{
+        flex-direction: column;
+    }
+    .header img{
+        width: 250px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+    .banner-text{
+    padding: 60px 30px;  
+    }
+    .text1{
+        font-size: 50px;
+    }
+    .grid-container{
+        grid-template-columns: repeat(1,1fr);
+    }
+}
