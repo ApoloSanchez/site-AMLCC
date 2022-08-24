@@ -11,11 +11,6 @@ amarillo: #f8ae00
     font-family: 'Rufina', serif; */
 
 /* Reseteo estilo predeterminado CSS */
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
 ul{
     list-style: none;
@@ -26,7 +21,24 @@ a{
 }
 
 /* HEADER */
-.header{
+.navbar-color{
+    background-color: #2C4058;
+}
+.navbar-collapse{
+    justify-content: flex-end;
+    padding: 0 30px;
+}
+.navbar-nav{
+    padding-left: 20px;
+}
+.nav-link{
+    color: #f7f7ff;
+}
+.nav-link:hover{
+    color: #f8ae00;
+    font-weight: bold;
+}
+/* .header{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -51,7 +63,7 @@ a{
 .header a:hover{
     color: #f8ae00;
     font-weight: bold;
-}
+} */
 
 /* MAIN */
 main{
