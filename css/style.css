@@ -38,12 +38,10 @@ a{
     font-weight: bold;
 }
 
-/* MAIN */
+/* MAIN STYLE GRAL*/
 main{
     padding-top: 85px;
-    background-color: #DCD9D4;
- background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
- background-blend-mode: soft-light,screen;
+    background-color: #f7f7ff;
     min-height: 80vh;
 }
 .text1{
@@ -66,16 +64,13 @@ main{
     font-weight: 400;
     line-height: 1.5;
 }
-.main-index img{
-    width: 350px;
-    padding: 30px;
-}
 
 /* BANNER */
 .banner-text{
     display: flex;
     flex-direction: column;
     align-content: center;
+    justify-content: center;
     padding: 30px 60% 60px 30px;
     text-align: left;
     height: 500px;
@@ -111,7 +106,7 @@ button:hover{
 }
 
 /* GALERÍA DE APOYOS */
-.grid-container{
+.services-cards{
     max-width: 75%;
     margin: 0 auto;
     display: grid;
