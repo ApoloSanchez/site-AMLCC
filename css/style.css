@@ -106,7 +106,7 @@ button:hover{
 }
 
 /* GALERÍA DE APOYOS */
-.services-cards{
+/* .services-cards{
     max-width: 75%;
     margin: 0 auto;
     display: grid;
@@ -121,7 +121,7 @@ button:hover{
 .grid-container p{
     text-align: center;
     color: #2C4058;
-}
+} */
 
 /* FOOTER */
 .footer{
@@ -146,13 +146,13 @@ button:hover{
 }
 
 /* MEDIA QUERY */
-@media (max-width:1455px){
+/* @media (max-width:1455px){
     .grid-container{
         grid-template-columns: repeat(2,1fr);
     }
-}
+} */
 
-@media (max-width:700px){
+/* @media (max-width:700px){
     .header, .footer{
         flex-direction: column;
     }
@@ -171,4 +171,4 @@ button:hover{
     .grid-container{
         grid-template-columns: repeat(1,1fr);
     }
-}
+} */
