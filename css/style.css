@@ -10,18 +10,16 @@ amarillo: #f8ae00
     font-family: 'Oxygen', sans-serif;
     font-family: 'Rufina', serif; */
 
-/* Reseteo estilo predeterminado CSS */
-
+/* RESETEO ESTILOS PREDETERMINADOS UL Y A EN CSS */
 ul{
     list-style: none;
 }
-
 a{
     text-decoration: none;
 }
 
 /* HEADER */
-.navbar-color{
+.navbar-dark{
     background-color: #2C4058;
 }
 .navbar-collapse{
@@ -32,41 +30,17 @@ a{
     padding-left: 20px;
 }
 .nav-link{
+    font-family: 'Oxygen', sans-serif;
     color: #f7f7ff;
 }
 .nav-link:hover{
     color: #f8ae00;
     font-weight: bold;
 }
-/* .header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #2C4058;
-    position: sticky;
-    padding: 0 30px;
-    top: 0;
-}
-.header img{
-    margin: 10px;
-}
-.header ul{
-    display:flex;
-}
-.header li{
-    margin: 10px;
-}
-.header a{
-    color: #f7f7ff;
-    font-family: 'Amaranth', sans-serif;
-}
-.header a:hover{
-    color: #f8ae00;
-    font-weight: bold;
-} */
 
 /* MAIN */
 main{
+    padding-top: 85px;
     background-color: #DCD9D4;
  background-image: linear-gradient(to bottom, rgba(255,255,255,0.50) 0%, rgba(0,0,0,0.50) 100%), radial-gradient(at 50% 0%, rgba(255,255,255,0.10) 0%, rgba(0,0,0,0.50) 50%);
  background-blend-mode: soft-light,screen;
