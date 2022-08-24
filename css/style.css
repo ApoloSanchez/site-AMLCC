@@ -57,12 +57,31 @@ main{
     line-height: 1.5;
     padding: 50px 30px 20px;
     text-align: center;
+    color: #2C4058;
 }
 .text3{
     font-family: 'Oxygen', sans-serif;
     font-size: 25px;
     font-weight: 400;
     line-height: 1.5;
+}
+button{
+    font-size:14px;
+    font-family:'Oxygen', sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#e7356f;
+    border: 0px;
+    border-radius: 5px;
+    width:80px;
+    height:30px;
+}
+button:hover{
+    background:#f8ae00;
+    font-weight:bolder;
+}
+.rowhigh{
+    background-color: rgb(224, 222, 222);
 }
 
 /* BANNER */
@@ -89,39 +108,8 @@ main{
     background-repeat: no-repeat;
     background-position: center;
 }
-button{
-    font-size:14px;
-    font-family:'Oxygen', sans-serif;
-    font-weight:bold;
-    color:white;
-    background:#e7356f;
-    border: 0px;
-    border-radius: 5px;
-    width:80px;
-    height:30px;
-   }
-button:hover{
-    background:#f8ae00;
-    font-weight:bolder;
-}
 
-/* GALERÍA DE APOYOS */
-/* .services-cards{
-    max-width: 75%;
-    margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-    justify-content: center;
-    justify-items: center;
-    grid-row-gap: 15px;
-}
-.grid-container img{
-    border-radius: 10%;
-}
-.grid-container p{
-    text-align: center;
-    color: #2C4058;
-} */
+
 
 /* FOOTER */
 .footer{
