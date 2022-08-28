@@ -1,0 +1,17 @@
+footer{
+    background-color: $deepblue;
+    .social-icons-container {
+        display: flex;
+        justify-content: space-around;
+        padding: 25px 100px;
+                svg{
+                    color: $white;
+                }
+                :hover {
+                    filter: alpha(opacity=70);
+                    -moz-opacity: 0.7;
+                    opacity: 0.7;
+                    -khtml-opacity: 0.7;
+                }
+    }
+}

@@ -1,0 +1,24 @@
+header {
+    .navbar-dark {
+        background-color: $deepblue;
+    }
+
+    nav {
+        .navbar-toggler{
+            padding:0;
+        }
+        .navbar-collapse {
+            justify-content: flex-end;
+            padding: 0 30px;
+        }
+            .nav-link {
+                font-family: 'Oxygen', sans-serif;
+                color: $white;
+        
+                &:hover {
+                    color: $yellow;
+                    font-weight: bold;
+                }
+            }
+    }
+}

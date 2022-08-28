@@ -1,0 +1,62 @@
+//COLORS
+$darkblue: #012140;
+$deepblue:#2C4058;
+$pink:#e7356f;
+$blue:#0051a0;
+$yellow:#f8ae00;
+$white: #f7f7ff;
+
+$md: 768px;
+
+//FONTS
+.text1 {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 3rem;
+    line-height: 1.1;
+    margin: 0;
+}
+.text2 {
+    font-family: 'Rufina', serif;
+    font-size: 2rem;
+    font-weight: 400px;
+    line-height: 1.5;
+    padding: 50px 30px 20px;
+    text-align: center;
+    color: $deepblue;
+}
+.text3 {
+    font-family: 'Oxygen', sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    padding: 0 40% 0 15px; //a partir de md, aumenta padding der
+    text-align: left;
+    height: 500px;
+    color: white;
+    background-color: #01214052;
+    @media (min-width:$md){
+        padding: 0 60% 0 15px;
+    }
+}
+
+.button{
+    font-size:14px;
+    font-family:'Oxygen', sans-serif;
+    font-weight:bold;
+    color:white;
+    background:#e7356f;
+    border: 0px;
+    border-radius: 5px;
+    width:80px;
+    height:30px;
+    &:hover{
+        background:#f8ae00;
+        font-weight:bolder;
+    }
+}

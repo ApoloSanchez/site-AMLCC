@@ -1,3 +1,7 @@
+@import url("https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,700&family=Oxygen:wght@400;700&family=Rufina:wght@400;700&display=swap");
+/*     font-family: 'Amaranth', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Rufina', serif; */
 * {
   margin: 0;
   padding: 0;
@@ -8,3 +12,108 @@ ul {
 
 a {
   text-decoration: none; }
+
+main {
+  margin-top: 85px;
+  background-color: #f7f7ff;
+  min-height: 80vh; }
+
+.text1 {
+  font-family: 'Amaranth', sans-serif;
+  font-size: 3rem;
+  line-height: 1.1;
+  margin: 0; }
+
+.text2 {
+  font-family: 'Rufina', serif;
+  font-size: 2rem;
+  font-weight: 400px;
+  line-height: 1.5;
+  padding: 50px 30px 20px;
+  text-align: center;
+  color: #2C4058; }
+
+.text3 {
+  font-family: 'Oxygen', sans-serif;
+  font-size: 25px;
+  font-weight: 400;
+  line-height: 1.5; }
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  padding: 0 40% 0 15px;
+  text-align: left;
+  height: 500px;
+  color: white;
+  background-color: #01214052; }
+  @media (min-width: 768px) {
+    .banner-text {
+      padding: 0 60% 0 15px; } }
+
+.button {
+  font-size: 14px;
+  font-family: 'Oxygen', sans-serif;
+  font-weight: bold;
+  color: white;
+  background: #e7356f;
+  border: 0px;
+  border-radius: 5px;
+  width: 80px;
+  height: 30px; }
+  .button:hover {
+    background: #f8ae00;
+    font-weight: bolder; }
+
+header .navbar-dark {
+  background-color: #2C4058; }
+
+header nav .navbar-toggler {
+  padding: 0; }
+
+header nav .navbar-collapse {
+  justify-content: flex-end;
+  padding: 0 30px; }
+
+header nav .nav-link {
+  font-family: 'Oxygen', sans-serif;
+  color: #f7f7ff; }
+  header nav .nav-link:hover {
+    color: #f8ae00;
+    font-weight: bold; }
+
+.banner-index {
+  background-image: url(../img/index/indexBanner.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.banner-donar {
+  background-image: url(../img/donar/encabezadoDonar.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+
+.carousel-inner {
+  height: 500px; }
+  .carousel-inner .carousel-item {
+    text-align: center; }
+
+.contact-form {
+  padding-left: 30px; }
+
+footer {
+  background-color: #2C4058; }
+  footer .social-icons-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 100px; }
+    footer .social-icons-container svg {
+      color: #f7f7ff; }
+    footer .social-icons-container :hover {
+      filter: alpha(opacity=70);
+      -moz-opacity: 0.7;
+      opacity: 0.7;
+      -khtml-opacity: 0.7; }

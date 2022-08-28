@@ -1,20 +1,28 @@
-//RESETEO ESTILOS
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-ul{
-    list-style: none;
-}
-a{
-    text-decoration: none;
-}
+//MOBILE FIRST
 //PARTIALS
+@import './partials/reset.scss';
+@import './partials/variables.scss';
 @import './partials/header';
-@import './partials/index-main';
-@import './partials/nosotros-main';
-@import './partials/apoyos-main';
-@import './partials/donar-main';
-@import './partials/contacto-main';
+@import './partials/mixin.scss';
+
+//BANNER
+.banner-index {
+    @include bg-banner('../img/index/indexBanner.png');
+}
+
+.banner-donar {
+    @include bg-banner('../img/donar/encabezadoDonar.png');
+}
+//CAROUSEL NOSOTROS
+.carousel-inner{
+    height: 500px;
+    .carousel-item{
+        text-align: center;
+    }
+}
+//CONTACT-FORM
+.contact-form {
+    padding-left: 30px;
+}
+
 @import './partials/footer';

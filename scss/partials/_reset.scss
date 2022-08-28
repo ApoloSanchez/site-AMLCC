@@ -1,0 +1,24 @@
+//FUENTES
+@import url('https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,700&family=Oxygen:wght@400;700&family=Rufina:wght@400;700&display=swap');
+ /*     font-family: 'Amaranth', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Rufina', serif; */
+    
+//RESETEO ESTILOS
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+//CONFIGURACION GRAL. MAIN
+main{
+    margin-top: 85px;
+    background-color: #f7f7ff;
+    min-height: 80vh;
+}
